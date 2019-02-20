@@ -21,7 +21,7 @@ end
 
 def build
   tree = {}
-  dictionaries = ['cedict.zh_CN.utf8', 'wikipedia.zh.utf8']
+  dictionaries = ['cedict.zh_CN.utf8', 'wikipedia.zh.utf8','sougou.dict']
   
   dictionaries.each do |dictionary|
     puts "Processing #{dictionary}..."
